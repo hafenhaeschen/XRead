@@ -3,4 +3,3 @@ XRead
 
 A XML, JSON, Linked-Data and Microdata reader for Android
 
-(test sentence)
