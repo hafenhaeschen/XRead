@@ -8,9 +8,41 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity" >
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+    <LinearLayout
+        android:layout_width="match_parent"
+		android:layout_height="match_parent"
+	   	android:orientation="vertical"
+        >
+   
+        <!-- Hello World -->
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/hello_world" />
+	    
+	    
+	    <!-- URL -->
+	    <EditText
+			android:id="@+id/edit_name"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content" />
+	
+	   	    
+	    <!-- Send Button -->
+		<LinearLayout
+		    android:orientation="horizontal"
+		    android:gravity="right"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    >
+		
+		    <Button
+		        android:id="@+id/button_send"
+		        android:layout_width="100sp"
+		        android:layout_height="wrap_content"
+		        android:text="Send" />
+		</LinearLayout>
 
+	</LinearLayout>
+	    
 </RelativeLayout>
